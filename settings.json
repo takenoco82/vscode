@@ -1,0 +1,17 @@
+{
+    "editor.snippetSuggestions": "top",
+    "editor.renderWhitespace": "all",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.showSlider": "always",
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "files.insertFinalNewline": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "python.pythonPath": "/Users/daisuke_takeuchi/.pyenv/versions/3.6.1/bin/python",
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": true,
+}
