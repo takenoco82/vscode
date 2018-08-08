@@ -1,4 +1,6 @@
 {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "editor.snippetSuggestions": "top",
     "editor.renderWhitespace": "all",
     "editor.minimap.renderCharacters": false,
@@ -8,10 +10,31 @@
         100
     ],
     "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+    },
+    "files.trimTrailingWhitespace": true,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
     "python.pythonPath": "/Users/daisuke_takeuchi/.pyenv/versions/3.6.1/bin/python",
-    "python.unitTest.unittestEnabled": false,
-    "python.unitTest.nosetestsEnabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.unitTest.unittestEnabled": true,
+    "python.unitTest.unittestArgs": [
+        "-v",
+        "-s",
+        "./python",
+        "-p",
+        "*test*.py"
+    ],
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": false,
+    "search.location": "panel",
 }
