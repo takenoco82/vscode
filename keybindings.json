@@ -1,38 +1,8 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+c",
-        "command": "editor.action.clipboardCopyAction",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "ctrl+x",
-        "command": "editor.action.clipboardCutAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "editor.action.clipboardPasteAction",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+z",
-        "command": "undo",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+y",
+        "key": "cmd+y",
         "command": "redo",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+/",
-        "command": "editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+ctrl+k",
-        "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
     },
     {
@@ -50,21 +20,11 @@
         "command": "editor.action.startFindReplaceAction"
     },
     {
-        "key": "ctrl+c",
-        "command": "filesExplorer.copy",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !inputFocus"
-    },
-    {
-        "key": "ctrl+v",
-        "command": "filesExplorer.paste",
-        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceReadonly && !inputFocus"
-    },
-    {
-        "key": "alt+left",
+        "key": "cmd+]",
         "command": "workbench.action.navigateBack"
     },
     {
-        "key": "alt+right",
+        "key": "cmd+]",
         "command": "workbench.action.navigateForward"
     },
     {
@@ -148,7 +108,60 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+w",
+        "key": "alt+right",
+        "command": "editor.action.indentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+left",
+        "command": "editor.action.outdentLines",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+w c",
         "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w n",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w v",
+        "command": "workbench.action.splitEditorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w ctrl+n",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+w h",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+w j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    {
+        "key": "ctrl+w k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    {
+        "key": "ctrl+w l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "cmd+d",
+        "command": "bookmarks.toggle",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+w shift+[Minus]",
+        "command": "workbench.action.evenEditorWidths"
+    },
+    {
+        "key": "ctrl+w o",
+        "command": "workbench.action.closeEditorsInOtherGroups"
     },
 ]
