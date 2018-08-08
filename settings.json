@@ -37,4 +37,5 @@
     "python.unitTest.nosetestsEnabled": false,
     "python.unitTest.pyTestEnabled": false,
     "search.location": "panel",
+    "explorer.autoReveal": false,
 }
