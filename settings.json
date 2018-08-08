@@ -38,4 +38,8 @@
     "python.unitTest.pyTestEnabled": false,
     "search.location": "panel",
     "explorer.autoReveal": false,
+    "todo-tree.flat": true,
+    "todo-tree.grouped": false,
+    "todo-tree.highlight": true,
+    "todo-tree.iconColour": "yellow",
 }
