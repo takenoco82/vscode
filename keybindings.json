@@ -164,4 +164,9 @@
         "key": "ctrl+w o",
         "command": "workbench.action.closeEditorsInOtherGroups"
     },
+    {
+        "key": "ctrl+cmd+/",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
 ]
