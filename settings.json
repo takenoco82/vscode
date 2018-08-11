@@ -2,6 +2,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.snippetSuggestions": "top",
+    "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "all",
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
