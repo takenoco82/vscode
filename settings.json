@@ -42,4 +42,6 @@
     "todo-tree.grouped": false,
     "todo-tree.highlight": true,
     "todo-tree.iconColour": "yellow",
+    "csv-preview.capitalizeHeaders": false,
+    "csv-preview.theme": "zen",
 }
