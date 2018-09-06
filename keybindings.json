@@ -20,7 +20,7 @@
         "command": "editor.action.startFindReplaceAction"
     },
     {
-        "key": "cmd+]",
+        "key": "cmd+[",
         "command": "workbench.action.navigateBack"
     },
     {
