@@ -35,14 +35,10 @@
         "--ignore=E402"
     ],
     "python.unitTest.unittestEnabled": true,
-    "python.unitTest.unittestArgs": [
-        "-v",
-        "-s",
-        "./python",
-        "-p",
-        "*test*.py"
-    ],
     "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.nosetestArgs": [
+        "-v"
+    ],
     "python.unitTest.pyTestEnabled": false,
     "explorer.autoReveal": false,
     "todo-tree.flat": true,
