@@ -43,8 +43,16 @@
     "explorer.autoReveal": false,
     "todo-tree.flat": true,
     "todo-tree.grouped": false,
-    "todo-tree.highlight": true,
+    "todo-tree.highlight": "tag",
     "todo-tree.iconColour": "yellow",
+    "todo-tree.defaultHighlight": {
+        "foreground": "yellow",
+        "type": "tag"
+    },
+    "todo-tree.customHighlight": {
+        "TODO": {},
+        "FIXME": {}
+    },
     "csv-preview.capitalizeHeaders": false,
     "csv-preview.theme": "zen",
 }
