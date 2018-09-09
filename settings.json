@@ -23,10 +23,17 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "python.pythonPath": "/Users/daisuke_takeuchi/.pyenv/versions/3.6.1/bin/python",
+    "python.pythonPath": "~/.pyenv/shims/python",
+    "python.formatting.autopep8Args": [
+        "--ignore=E501"
+    ],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+        "--ignore=E402"
+    ],
     "python.unitTest.unittestEnabled": true,
     "python.unitTest.unittestArgs": [
         "-v",
