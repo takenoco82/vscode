@@ -40,6 +40,7 @@
         "-v"
     ],
     "python.unitTest.pyTestEnabled": false,
+    "autoDocstring.docstringFormat": "google",
     "explorer.autoReveal": false,
     "todo-tree.flat": true,
     "todo-tree.grouped": false,
