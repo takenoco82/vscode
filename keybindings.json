@@ -183,4 +183,10 @@
         "key": "cmd+t",
         "command": "workbench.action.tasks.runTask"
     },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "nosetests: Current File",
+        "when": "editorLangId == 'python'"
+    },
 ]
