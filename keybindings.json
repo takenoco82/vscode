@@ -162,6 +162,14 @@
         "command": "workbench.action.focusRightGroup"
     },
     {
+        "key": "ctrl+w shift+l",
+        "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "ctrl+w shift+h",
+        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
         "key": "cmd+d",
         "command": "bookmarks.toggle",
         "when": "editorTextFocus"
