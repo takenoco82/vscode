@@ -180,7 +180,7 @@
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
     },
     {
-        "key": "cmd+r",
+        "key": "cmd+t",
         "command": "workbench.action.tasks.runTask"
     },
 ]
