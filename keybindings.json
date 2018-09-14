@@ -211,4 +211,8 @@
         "args": "nosetests: Current File",
         "when": "editorLangId == 'python'"
     },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.showCommands"
+    },
 ]
