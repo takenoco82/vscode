@@ -183,6 +183,10 @@
         "command": "workbench.action.closeEditorsInOtherGroups"
     },
     {
+        "key": "ctrl+w ctrl+w",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    {
         "key": "ctrl+cmd+/",
         "command": "editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
