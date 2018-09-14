@@ -212,6 +212,10 @@
         "when": "editorLangId == 'python'"
     },
     {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm"
+    },
+    {
         "key": "ctrl+[Semicolon]",
         "command": "workbench.action.showCommands"
     },
