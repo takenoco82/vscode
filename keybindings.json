@@ -48,6 +48,16 @@
         "when": "textInputFocus"
     },
     {
+        "key": "shift+ctrl+a",
+        "command": "cursorHomeSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+ctrl+e",
+        "command": "cursorEndSelect",
+        "when": "textInputFocus"
+    },
+    {
         "key": "alt+0",
         "command": "editor.unfoldAll",
         "when": "editorTextFocus"
