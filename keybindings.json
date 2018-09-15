@@ -219,4 +219,9 @@
         "key": "ctrl+[Semicolon]",
         "command": "workbench.action.showCommands"
     },
+    {
+        "key": "ctrl+x ctrl+v",
+        "command": "csv.preview",
+        "when": "editorLangId == 'csv'"
+    },
 ]
