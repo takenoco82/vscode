@@ -58,4 +58,5 @@
     "csv-preview.capitalizeHeaders": false,
     "csv-preview.theme": "light",
     "csv-preview.lineNumbers": true,
+    "open-file-from-path.startingPath": "/,tests/",
 }
