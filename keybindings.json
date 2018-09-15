@@ -224,4 +224,9 @@
         "command": "csv.preview",
         "when": "editorLangId == 'csv'"
     },
+    {
+        "key": "ctrl+x ctrl+f",
+        "command": "extension.openFileFromPath",
+        "when": "!terminalFocus"
+    },
 ]
