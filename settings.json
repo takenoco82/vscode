@@ -59,4 +59,7 @@
     "csv-preview.theme": "light",
     "csv-preview.lineNumbers": true,
     "open-file-from-path.startingPath": "/,tests/",
+    "path-intellisense.mappings": {
+        "tests": "${workspaceRoot}/tests",
+    },
 }
