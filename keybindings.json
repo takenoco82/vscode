@@ -229,4 +229,8 @@
         "command": "extension.openFileFromPath",
         "when": "!terminalFocus"
     },
+    {
+        "key": "ctrl+j",
+        "command": "findJump.activate"
+    },
 ]
