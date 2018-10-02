@@ -1,5 +1,10 @@
 {
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.lineHighlightBackground": "#333333",
+        },
+    },
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.snippetSuggestions": "top",
