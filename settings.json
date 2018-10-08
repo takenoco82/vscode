@@ -28,7 +28,6 @@
     "files.trimTrailingWhitespace": true,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
-    "gitlens.currentLine.enabled": false,
     "python.pythonPath": "~/.pyenv/shims/python",
     "python.formatting.autopep8Args": [
         "--ignore=E501"
