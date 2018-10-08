@@ -68,4 +68,7 @@
         "tests": "${workspaceRoot}/tests",
     },
     "bracketPairColorizer.showHorizontalScopeLine": false,
+    "[tsv]": {
+        "files.trimTrailingWhitespace": false,
+    },
 }
