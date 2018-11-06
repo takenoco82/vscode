@@ -41,12 +41,6 @@
         "--max-line-length=120",
         "--ignore=E402"
     ],
-    "python.unitTest.unittestEnabled": true,
-    "python.unitTest.nosetestsEnabled": false,
-    "python.unitTest.nosetestArgs": [
-        "-v"
-    ],
-    "python.unitTest.pyTestEnabled": false,
     "autoDocstring.docstringFormat": "google",
     "explorer.autoReveal": false,
     "todo-tree.flat": true,
