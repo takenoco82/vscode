@@ -1,6 +1,6 @@
 {
     "mode": "all",
-    "autoStart": false,
+    "autoStart": true,
     "refreshRate": 100,
     "elements":
     [{
