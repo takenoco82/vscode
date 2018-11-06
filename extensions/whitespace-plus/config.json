@@ -5,7 +5,7 @@
     "elements":
     [{
         "name": "space",
-        "enabled": true,
+        "enabled": false,
         "pattern": "\\s",
         "style": {
             "borderWidth": "1px",
@@ -22,7 +22,7 @@
         }
     },{
         "name": "tab",
-        "enabled": true,
+        "enabled": false,
         "pattern": "\\t",
         "style": {
             "borderWidth": "1px",
@@ -39,7 +39,7 @@
         }
     },{
         "name": "newline",
-        "enabled": true,
+        "enabled": false,
         "pattern": "\\n",
         "style": {
             "borderWidth": "1px",
