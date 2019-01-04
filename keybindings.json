@@ -208,7 +208,7 @@
     {
         "key": "cmd+r",
         "command": "workbench.action.tasks.runTask",
-        "args": "nosetests: Current File",
+        "args": "nosetests",
         "when": "editorLangId == 'python'"
     },
     {
