@@ -162,12 +162,20 @@
         "command": "workbench.action.focusRightGroup"
     },
     {
-        "key": "ctrl+w shift+l",
-        "command": "workbench.action.moveEditorToRightGroup"
+        "key": "ctrl+w ctrl+j",
+        "command": "workbench.action.moveEditorToAboveGroup"
     },
     {
-        "key": "ctrl+w shift+h",
+        "key": "ctrl+w ctrl+k",
+        "command": "workbench.action.moveEditorToBelowGroup"
+    },
+    {
+        "key": "ctrl+w ctrl+h",
         "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
+        "key": "ctrl+w ctrl+l",
+        "command": "workbench.action.moveEditorToRightGroup"
     },
     {
         "key": "cmd+d",
