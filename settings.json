@@ -7,7 +7,7 @@
     },
     "bashBeautify.tabSize": 2,
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.snippetSuggestions": "top",
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "all",
