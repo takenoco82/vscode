@@ -6,6 +6,7 @@
         },
     },
     "bashBeautify.tabSize": 2,
+    "breadcrumbs.enabled": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.snippetSuggestions": "top",
