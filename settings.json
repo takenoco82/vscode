@@ -65,6 +65,9 @@
         "tests": "${workspaceRoot}/tests",
     },
     "bracketPairColorizer.showHorizontalScopeLine": false,
+    "[shellscript]": {
+        "editor.tabSize": 2
+    },
     "[tsv]": {
         "files.trimTrailingWhitespace": false,
     },
