@@ -163,11 +163,11 @@
     },
     {
         "key": "ctrl+w ctrl+j",
-        "command": "workbench.action.moveEditorToAboveGroup"
+        "command": "workbench.action.moveEditorToBelowGroup"
     },
     {
         "key": "ctrl+w ctrl+k",
-        "command": "workbench.action.moveEditorToBelowGroup"
+        "command": "workbench.action.moveEditorToAboveGroup"
     },
     {
         "key": "ctrl+w ctrl+h",
