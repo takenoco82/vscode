@@ -5,6 +5,7 @@
             "editor.lineHighlightBackground": "#333333",
         },
     },
+    "bashBeautify.tabSize": 2,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.snippetSuggestions": "top",
