@@ -30,6 +30,7 @@
     },
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": true,
+    "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "python.pythonPath": "~/.pyenv/shims/python",
