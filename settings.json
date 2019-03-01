@@ -1,26 +1,19 @@
 {
-    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
-    "workbench.colorCustomizations": {
-        "[Default Dark+]": {
-            "editor.lineHighlightBackground": "#333333",
-        },
-    },
-    "bashBeautify.tabSize": 2,
     "breadcrumbs.enabled": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
-    "editor.snippetSuggestions": "top",
-    "editor.renderLineHighlight": "all",
-    "editor.renderWhitespace": "all",
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "all",
     "editor.renderControlCharacters": true,
     "editor.rulers": [
         80,
         100
     ],
-    "files.insertFinalNewline": true,
+    "editor.snippetSuggestions": "top",
+    "explorer.autoReveal": false,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -31,12 +24,31 @@
         "**/.ropeproject": true,
         "**/.mypy_cache": true,
     },
+    "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": true,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "editor.lineHighlightBackground": "#333333",
+        },
+    },
+    // Language specific editor settings
+    "[shellscript]": {
+        "editor.tabSize": 2
+    },
+    "[tsv]": {
+        "files.trimTrailingWhitespace": false,
+    },
+    // Extension settiong
+    "bashBeautify.tabSize": 2,
+    "bracketPairColorizer.showHorizontalScopeLine": false,
+    "csv-preview.capitalizeHeaders": false,
+    "csv-preview.lineNumbers": true,
+    "csv-preview.theme": "light",
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
-    "python.pythonPath": "~/.pyenv/shims/python",
     "python.autoComplete.extraPaths": [
         "~/.pyenv/versions/3.7.0/lib/python3.7/site-packages"
     ],
@@ -50,8 +62,7 @@
         "--max-line-length=120",
         "--ignore=E402"
     ],
-    "autoDocstring.docstringFormat": "google",
-    "explorer.autoReveal": false,
+    "python.pythonPath": "~/.pyenv/shims/python",
     "todo-tree.flat": true,
     "todo-tree.grouped": false,
     "todo-tree.highlight": "tag",
@@ -64,18 +75,8 @@
         "TODO": {},
         "FIXME": {}
     },
-    "csv-preview.capitalizeHeaders": false,
-    "csv-preview.theme": "light",
-    "csv-preview.lineNumbers": true,
     "open-file-from-path.startingPath": "/,tests/",
     "path-intellisense.mappings": {
         "tests": "${workspaceRoot}/tests",
-    },
-    "bracketPairColorizer.showHorizontalScopeLine": false,
-    "[shellscript]": {
-        "editor.tabSize": 2
-    },
-    "[tsv]": {
-        "files.trimTrailingWhitespace": false,
     },
 }
