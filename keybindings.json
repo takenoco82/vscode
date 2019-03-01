@@ -28,26 +28,6 @@
         "command": "workbench.action.navigateForward"
     },
     {
-        "key": "cmd+right",
-        "command": "cursorWordEndRight",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+cmd+right",
-        "command": "cursorWordEndRightSelect",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "cmd+left",
-        "command": "cursorWordStartLeft",
-        "when": "textInputFocus"
-    },
-    {
-        "key": "shift+cmd+left",
-        "command": "cursorWordStartLeftSelect",
-        "when": "textInputFocus"
-    },
-    {
         "key": "shift+ctrl+a",
         "command": "cursorHomeSelect",
         "when": "textInputFocus"
@@ -244,5 +224,45 @@
         "key": "ctrl+u",
         "command": "deleteAllLeft",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+left",
+        "command": "extension.cursorPrevWordStartJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-extension.cursorPrevWordStartJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "extension.cursorNextWordEndJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-extension.cursorNextWordEndJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+left",
+        "command": "extension.cursorPrevWordStartSelectJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "-extension.cursorPrevWordStartSelectJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+right",
+        "command": "extension.cursorNextWordEndSelectJa",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "-extension.cursorNextWordEndSelectJa",
+        "when": "editorTextFocus"
     }
 ]
