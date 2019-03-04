@@ -11,6 +11,25 @@
 	// 		"$2"
 	// 	],
 	// 	"description": "Log output to console"
+	"class(object)": {
+		"prefix": "class",
+		"body": [
+			"class ${1:ClassName}(object):",
+			"    def __init__(self, ${2:param}):",
+			"        self.${2:param} = ${2:param}",
+			"",
+			"    def __repr__(self):",
+			"        return f\"${1:ClassName}(${2:param}='{self.${2:param}}')\"",
+			"",
+			"    def __str__(self):",
+			"        return f\"${1:ClassName}={self.__dict__}\"",
+			"",
+			"    def ${3:method_name}(self, ${4:parameter_list}):",
+			"        raise NotImplementedError",
+			""
+		],
+		"description": "Code snippet for a class definition"
+	},
 	"class(unittest)": {
 		"prefix": "class",
 		"body": [
