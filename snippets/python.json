@@ -78,5 +78,12 @@
 			""
 		],
 		"description": "Code snippet for a property definition"
+	},
+	"list comprehension": {
+		"prefix": "for",
+		"body": [
+			"[${3:print(${1:item})} for ${1:item} in ${2:items}]"
+		],
+		"description": "Code snippet for a list comprehension"
 	}
 }
