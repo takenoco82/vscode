@@ -38,8 +38,8 @@
 		],
 		"description": "Code snippet for a unittest class definition"
 	},
-	"unittest main": {
-		"prefix": "if",
+	"unittest.main()": {
+		"prefix": "__main__",
 		"body": [
 			"if __name__ == '__main__':",
 			"    unittest.main()"
