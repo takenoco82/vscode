@@ -64,5 +64,19 @@
 			"    unittest.main()"
 		],
 		"description": "Code snippet for running unittest"
+	},
+	"property": {
+		"prefix": "property",
+		"body": [
+			"@property",
+			"def ${1:name}(self) -> ${2:str}:",
+			"    return self.__${1:name}",
+			"",
+			"@${1:name}.setter",
+			"def ${1:name}(self, ${3:value}: ${2:str}):",
+			"    self.__${1:name} = ${3:value}",
+			""
+		],
+		"description": "Code snippet for a property definition"
 	}
 }
