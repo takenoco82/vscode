@@ -5,9 +5,9 @@
     "editor.minimap.enabled": false,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.showSlider": "always",
+    "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": true,
     "editor.rulers": [
         80,
         100
