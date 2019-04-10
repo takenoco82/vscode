@@ -40,6 +40,8 @@
         "editor.tabSize": 2
     },
     "[shellscript]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
         "editor.tabSize": 2
     },
     "[tsv]": {
