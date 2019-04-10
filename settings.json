@@ -38,6 +38,7 @@
         "editor.tabSize": 2
     },
     "[tsv]": {
+        "files.insertFinalNewline": false,
         "files.trimTrailingWhitespace": false,
     },
     // Extension settiong
