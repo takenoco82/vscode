@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
