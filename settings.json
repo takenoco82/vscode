@@ -88,4 +88,5 @@
         "tests": "${workspaceRoot}/tests",
     },
     "rest-client.decodeEscapedUnicodeCharacters": true,
+    "rest-client.previewOption": "exchange",
 }
