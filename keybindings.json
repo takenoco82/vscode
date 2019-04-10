@@ -264,5 +264,25 @@
         "key": "shift+alt+right",
         "command": "-extension.cursorNextWordEndSelectJa",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "tab",
+        "command": "text-tables.gotoNextCell",
+        "when": "tableMode"
+    },
+    {
+        "key": "shift+tab",
+        "command": "text-tables.gotoPreviousCell",
+        "when": "tableMode"
+    },
+    {
+        "key": "alt+left",
+        "command": "text-tables.moveColLeft",
+        "when": "tableMode"
+    },
+    {
+        "key": "alt+right",
+        "command": "text-tables.moveColRight",
+        "when": "tableMode"
     }
 ]
