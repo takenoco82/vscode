@@ -12,6 +12,8 @@
         "eamodio.gitlens",
         // docker
         "ms-azuretools.vscode-docker",
+        // terraform
+        "mauve.terraform",
         // japanese
         "ms-ceintl.vscode-language-pack-ja",
         "sgryjp.japanese-word-handler",
