@@ -28,6 +28,7 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": true,
+    "terminal.integrated.scrollback": 20000,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
