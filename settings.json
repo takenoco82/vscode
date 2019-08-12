@@ -15,6 +15,7 @@
     ],
     "editor.snippetSuggestions": "top",
     "explorer.autoReveal": false,
+    "extensions.ignoreRecommendations": false,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
