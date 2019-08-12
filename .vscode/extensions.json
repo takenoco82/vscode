@@ -1,0 +1,49 @@
+{
+    "recommendations": [
+        // remote development
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode-remote.remote-ssh",
+        "ms-vscode-remote.remote-ssh-edit",
+        "ms-vscode-remote.remote-ssh-explorer",
+        "ms-vscode-remote.remote-wsl",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        // git
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        // docker
+        "ms-azuretools.vscode-docker",
+        // japanese
+        "ms-ceintl.vscode-language-pack-ja",
+        "sgryjp.japanese-word-handler",
+        "saikou9901.evilinspector",
+        // markdown
+        "shd101wyy.markdown-preview-enhanced",
+        "yzhang.markdown-all-in-one",
+        "mushan.vscode-paste-image",
+        // rest api
+        "arjun.swagger-viewer",
+        "humao.rest-client",
+        // javascript
+        "dbaeumer.vscode-eslint",
+        "octref.vetur",
+        "msjsdiag.debugger-for-chrome",
+        // pathon
+        "ms-python.python",
+        "njpwerner.autodocstring",
+        // powershell
+        "ms-vscode.powershell",
+        // csv, tsv
+        "mechatroner.rainbow-csv",
+        "grapecity.gc-excelviewer",
+        // syntax
+        "mikestead.dotenv",
+        "dawhite.mustache",
+        // other
+        "berublan.vscode-log-viewer",
+        "wmaurer.change-case",
+        "coenraads.bracket-pair-colorizer",
+        "esbenp.prettier-vscode",
+        "gruntfuggly.todo-tree",
+        "jack89ita.open-file-from-path"
+    ]
+}
