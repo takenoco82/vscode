@@ -1,288 +1,229 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    /******************************************************
+     * 編集
+     *****************************************************/
+    // 元に戻す
+    {
+        "key": "cmd+z",
+        "command": "undo",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    // やり直し
     {
         "key": "cmd+y",
         "command": "redo",
         "when": "textInputFocus && !editorReadonly"
     },
+    // 右側をすべて削除
     {
-        "key": "ctrl+enter",
-        "command": "editor.action.insertLineAfter",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+k",
+        "command": "deleteAllRight",
+        "when": "textInputFocus && !editorReadonly"
     },
+    // 左側をすべて削除
     {
-        "key": "shift+ctrl+enter",
-        "command": "editor.action.insertLineBefore",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+u",
+        "command": "deleteAllLeft",
+        "when": "textInputFocus && !editorReadonly"
     },
+    // 左側の単語を削除
+    {
+        "key": "alt+backspace",
+        "command": "deleteWordLeft",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    // 置換
     {
         "key": "cmd+h",
         "command": "editor.action.startFindReplaceAction"
     },
-    {
-        "key": "cmd+[",
-        "command": "workbench.action.navigateBack"
-    },
-    {
-        "key": "cmd+]",
-        "command": "workbench.action.navigateForward"
-    },
+    /******************************************************
+     * 選択
+     *****************************************************/
+    // カーソル位置から行頭までを選択
     {
         "key": "shift+ctrl+a",
         "command": "cursorHomeSelect",
         "when": "textInputFocus"
     },
+    // カーソル位置から行末までを選択
     {
         "key": "shift+ctrl+e",
         "command": "cursorEndSelect",
         "when": "textInputFocus"
     },
+    /******************************************************
+     * 表示
+     *****************************************************/
+    // コマンドパレット
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.showCommands"
+    },
+    // ビュー: SCMの表示
+    {
+        "key": "shift+cmd+g",
+        "command": "workbench.view.scm"
+    },
+    // ビュー: 統合ターミナルの切り替え
+    {
+        "key": "ctrl+[Quote]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    // その他を閉じる
+    {
+        "key": "ctrl+w o",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    // 他のグループ内のエディターを閉じる
+    {
+        "key": "ctrl+w shift+o",
+        "command": "workbench.action.closeEditorsInOtherGroups"
+    },
+    // すべて展開
     {
         "key": "alt+0",
         "command": "editor.unfoldAll",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
+    // すべて折りたたみ
     {
         "key": "alt+1",
         "command": "editor.foldAll",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
+    // アウトラインレベル2で折りたたみ
     {
         "key": "alt+2",
         "command": "editor.foldLevel2",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
+    // アウトラインレベル3で折りたたみ
     {
         "key": "alt+3",
         "command": "editor.foldLevel3",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
+    // アウトラインレベル4で折りたたみ
     {
         "key": "alt+4",
         "command": "editor.foldLevel4",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
-    {
-        "key": "alt+5",
-        "command": "editor.foldLevel5",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+6",
-        "command": "editor.foldLevel6",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+7",
-        "command": "editor.foldLevel7",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+8",
-        "command": "editor.foldLevel8",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+9",
-        "command": "editor.foldLevel9",
-        "when": "editorTextFocus"
-    },
+    // 再帰的に折りたたむ
     {
         "key": "alt+[Minus]",
         "command": "editor.foldRecursively",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
+    // 再帰的に展開する
     {
         "key": "shift+alt+[Semicolon]",
         "command": "editor.unfoldRecursively",
-        "when": "editorTextFocus"
+        "when": "editorTextFocus && foldingEnabled"
     },
+    /******************************************************
+     * 移動
+     *****************************************************/
+    // ビュー: エディターを右に分割
     {
-        "key": "alt+right",
-        "command": "editor.action.indentLines",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+left",
-        "command": "editor.action.outdentLines",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+w c",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "ctrl+w n",
-        "command": "workbench.action.splitEditorDown",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+w v",
+        "key": "ctrl+w ctrl+v",
         "command": "workbench.action.splitEditorRight",
         "when": "editorTextFocus"
     },
+    // ビュー: エディターを下に分割
     {
         "key": "ctrl+w ctrl+n",
-        "command": "workbench.action.focusAboveGroup"
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
     },
-    {
-        "key": "ctrl+w h",
-        "command": "workbench.action.focusLeftGroup"
-    },
-    {
-        "key": "ctrl+w j",
-        "command": "workbench.action.focusBelowGroup"
-    },
-    {
-        "key": "ctrl+w k",
-        "command": "workbench.action.focusAboveGroup"
-    },
-    {
-        "key": "ctrl+w l",
-        "command": "workbench.action.focusRightGroup"
-    },
-    {
-        "key": "ctrl+w ctrl+j",
-        "command": "workbench.action.moveEditorToBelowGroup"
-    },
-    {
-        "key": "ctrl+w ctrl+k",
-        "command": "workbench.action.moveEditorToAboveGroup"
-    },
+    // ビュー: 左のエディター グループにフォーカス
     {
         "key": "ctrl+w ctrl+h",
-        "command": "workbench.action.moveEditorToLeftGroup"
+        "command": "workbench.action.focusLeftGroup"
     },
+    // ビュー: 下のエディター グループにフォーカス
+    {
+        "key": "ctrl+w ctrl+j",
+        "command": "workbench.action.focusBelowGroup"
+    },
+    // ビュー: 上のエディター グループにフォーカス
+    {
+        "key": "ctrl+w ctrl+k",
+        "command": "workbench.action.focusAboveGroup"
+    },
+    // ビュー: 右のエディター グループにフォーカス
     {
         "key": "ctrl+w ctrl+l",
+        "command": "workbench.action.focusRightGroup"
+    },
+    // ビュー: エディターを右のグループに移動
+    {
+        "key": "ctrl+cmd+right",
         "command": "workbench.action.moveEditorToRightGroup"
     },
+    // ビュー: エディターを下のグループに移動
     {
-        "key": "ctrl+w shift+[Minus]",
-        "command": "workbench.action.evenEditorWidths"
+        "key": "ctrl+cmd+down",
+        "command": "workbench.action.moveEditorToBelowGroup"
     },
+    // ビュー: エディターを左のグループに移動
     {
-        "key": "ctrl+w o",
-        "command": "workbench.action.closeEditorsInOtherGroups"
+        "key": "ctrl+cmd+left",
+        "command": "workbench.action.moveEditorToLeftGroup"
     },
+    // ビュー: エディターを上のグループに移動
     {
-        "key": "ctrl+w ctrl+w",
-        "command": "workbench.files.action.showActiveFileInExplorer"
+        "key": "ctrl+cmd+up",
+        "command": "workbench.action.moveEditorToAboveGroup"
     },
-    {
-        "key": "ctrl+cmd+/",
-        "command": "editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+b",
-        "command": "markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
-    {
-        "key": "cmd+b",
-        "command": "-markdown.extension.editing.toggleBold",
-        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
-    },
+    /******************************************************
+     * ターミナル
+     *****************************************************/
+    // タスク: タスクの実行
     {
         "key": "shift+cmd+r",
         "command": "workbench.action.tasks.runTask"
     },
+    // タスク: タスクの実行 nosetests
     {
         "key": "cmd+r",
         "command": "workbench.action.tasks.runTask",
         "args": "nosetests",
         "when": "editorLangId == 'python'"
     },
+    /******************************************************
+     * その他
+     *****************************************************/
+    // 指定行へ移動 (ctrl+g をプレフィックスにするため)
     {
-        "key": "shift+cmd+g",
-        "command": "workbench.view.scm"
+        "key": "ctrl+g g",
+        "command": "workbench.action.gotoLine"
     },
     {
-        "key": "ctrl+[Semicolon]",
-        "command": "workbench.action.showCommands"
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
     },
+    // パスをコピー
     {
-        "key": "ctrl+[Quote]",
-        "command": "workbench.action.terminal.toggleTerminal"
+        "key": "ctrl+g y",
+        "command": "copyFilePath"
     },
+    // 相対パスをコピー
     {
-        "key": "ctrl+x ctrl+v",
-        "command": "csv.preview",
-        "when": "editorLangId == 'csv'"
+        "key": "ctrl+g ctrl+y",
+        "command": "copyRelativeFilePath"
     },
+    // ファイル: アクティブファイルをサイドバーに表示
     {
-        "key": "ctrl+x ctrl+f",
+        "key": "ctrl+g ctrl+g",
+        "command": "workbench.files.action.showActiveFileInExplorer"
+    },
+    // パスからファイルを開く
+    {
+        "key": "ctrl+g ctrl+f",
         "command": "extension.openFileFromPath",
         "when": "!terminalFocus"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "findJump.activate"
-    },
-    {
-        "key": "ctrl+u",
-        "command": "deleteAllLeft",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "cmd+left",
-        "command": "extension.cursorPrevWordStartJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+left",
-        "command": "-extension.cursorPrevWordStartJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "cmd+right",
-        "command": "extension.cursorNextWordEndJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+right",
-        "command": "-extension.cursorNextWordEndJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+left",
-        "command": "extension.cursorPrevWordStartSelectJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+left",
-        "command": "-extension.cursorPrevWordStartSelectJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+cmd+right",
-        "command": "extension.cursorNextWordEndSelectJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+right",
-        "command": "-extension.cursorNextWordEndSelectJa",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "tab",
-        "command": "text-tables.gotoNextCell",
-        "when": "tableMode"
-    },
-    {
-        "key": "shift+tab",
-        "command": "text-tables.gotoPreviousCell",
-        "when": "tableMode"
-    },
-    {
-        "key": "alt+left",
-        "command": "text-tables.moveColLeft",
-        "when": "tableMode"
-    },
-    {
-        "key": "alt+right",
-        "command": "text-tables.moveColRight",
-        "when": "tableMode"
     }
 ]
