@@ -39,7 +39,7 @@
     "[python]": {
         "editor.formatOnPaste": false,
         "editor.formatOnSave": true,
-        "editor.tabSize": 2
+        "editor.tabSize": 4
     },
     "[shellscript]": {
         "editor.formatOnPaste": true,
