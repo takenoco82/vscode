@@ -41,6 +41,7 @@
         "mikestead.dotenv",
         "dawhite.mustache",
         // other
+        "ryu1kn.partial-diff",
         "berublan.vscode-log-viewer",
         "wmaurer.change-case",
         "coenraads.bracket-pair-colorizer",
