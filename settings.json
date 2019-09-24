@@ -1,6 +1,9 @@
 {
     "breadcrumbs.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
+    // https://qiita.com/yoskeoka/items/3b18ed4a40267aacc76f
+    "editor.fontFamily": "SourceHanCodeJP-Regular",
+    "editor.fontSize": 11,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": false,
     "editor.minimap.enabled": false,
@@ -29,6 +32,8 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "git.enableSmartCommit": true,
+    // https://github.com/powerline/fonts
+    "terminal.integrated.fontFamily": "'Source Code Pro for Powerline'",
     "terminal.integrated.scrollback": 20000,
     "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
     "workbench.colorCustomizations": {
