@@ -73,6 +73,8 @@
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.donotShowInfoMsg": true,
     "python.autoComplete.extraPaths": [
         "~/.pyenv/versions/3.7.0/lib/python3.7/site-packages"
     ],
