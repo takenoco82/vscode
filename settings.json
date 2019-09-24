@@ -87,17 +87,24 @@
         "--ignore=E402"
     ],
     "python.pythonPath": "~/.pyenv/shims/python",
-    "todo-tree.flat": true,
-    "todo-tree.grouped": false,
-    "todo-tree.highlight": "tag",
-    "todo-tree.iconColour": "yellow",
-    "todo-tree.defaultHighlight": {
+    "todo-tree.general.tags": [
+        "FIXME",
+        "NOTE",
+        "TODO"
+    ],
+    "todo-tree.highlights.customHighlight": {
+        "FIXME": {
+            "icon": "alert"
+        },
+        "NOTE": {
+            "foreground": "cyan",
+            "icon": "comment"
+        },
+        "TODO": {}
+    },
+    "todo-tree.highlights.defaultHighlight": {
         "foreground": "yellow",
         "type": "tag"
-    },
-    "todo-tree.customHighlight": {
-        "TODO": {},
-        "FIXME": {}
     },
     "open-file-from-path.startingPath": "/,tests/",
     "path-intellisense.mappings": {
