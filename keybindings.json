@@ -53,6 +53,16 @@
         "command": "cursorEndSelect",
         "when": "textInputFocus"
     },
+    // Emmet: バランス (内側)
+    {
+        "key": "ctrl+v ctrl+i",
+        "command": "editor.emmet.action.balanceIn"
+    },
+    // Emmet: バランス (外側)
+    {
+        "key": "ctrl+v ctrl+o",
+        "command": "editor.emmet.action.balanceOut"
+    },
     /******************************************************
      * 表示
      *****************************************************/
