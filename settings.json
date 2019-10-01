@@ -70,6 +70,15 @@
     "csv-preview.capitalizeHeaders": false,
     "csv-preview.lineNumbers": true,
     "csv-preview.theme": "light",
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
     "gitHistory.showEditorTitleMenuBarIcons": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
