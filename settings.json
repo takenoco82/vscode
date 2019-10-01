@@ -68,7 +68,7 @@
     "bashBeautify.tabSize": 2,
     "bracketPairColorizer.showHorizontalScopeLine": false,
     "csv-preview.capitalizeHeaders": false,
-    "csv-preview.lineNumbers": true,
+    "csv-preview.lineNumbers": "ordinal",
     "csv-preview.theme": "light",
     "eslint.autoFixOnSave": true,
     "eslint.validate": [
