@@ -123,4 +123,5 @@
     },
     "rest-client.decodeEscapedUnicodeCharacters": true,
     "rest-client.previewOption": "exchange",
+    "vetur.format.enable": false
 }
