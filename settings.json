@@ -48,17 +48,17 @@
     // Language specific editor settings
     "[javascript]": {
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.tabSize": 2
     },
     "[python]": {
         "editor.formatOnPaste": false,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.tabSize": 4
     },
     "[shellscript]": {
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": false,
         "editor.tabSize": 2
     },
     "[tsv]": {
