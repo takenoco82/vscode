@@ -2,6 +2,7 @@
     "breadcrumbs.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
     // https://qiita.com/yoskeoka/items/3b18ed4a40267aacc76f
+    "editor.copyWithSyntaxHighlighting": false,
     "editor.fontFamily": "SourceHanCodeJP-Regular",
     "editor.fontSize": 11,
     "editor.formatOnPaste": true,
