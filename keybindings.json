@@ -121,6 +121,12 @@
         "command": "editor.foldLevel4",
         "when": "editorTextFocus && foldingEnabled"
     },
+    // アウトラインレベル5で折りたたみ
+    {
+        "key": "alt+5",
+        "command": "editor.foldLevel5",
+        "when": "editorTextFocus && foldingEnabled"
+    },
     // 再帰的に折りたたむ
     {
         "key": "alt+[Minus]",
@@ -196,11 +202,11 @@
         "key": "shift+cmd+r",
         "command": "workbench.action.tasks.runTask"
     },
-    // タスク: タスクの実行 nosetests
+    // タスク: タスクの実行 test
     {
         "key": "cmd+r",
         "command": "workbench.action.tasks.runTask",
-        "args": "nosetests",
+        "args": "test",
         "when": "editorLangId == 'python'"
     },
     /******************************************************
@@ -241,5 +247,10 @@
         "key": "cmd+b",
         "command": "-markdown.extension.editing.toggleBold",
         "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    // ターミナル: アクティブなターミナルの切り替え
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.quickOpenTerm"
     }
 ]
