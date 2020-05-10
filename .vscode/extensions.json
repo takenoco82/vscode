@@ -9,7 +9,7 @@
         "ms-vscode-remote.vscode-remote-extensionpack",
         // git
         "donjayamanne.githistory",
-        "eamodio.gitlens",
+        "mhutchie.git-graph",
         // docker
         "ms-azuretools.vscode-docker",
         // terraform
