@@ -1,0 +1,77 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    // Ctrl + p と重複しているので削除
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    /******************************************************
+     * 表示
+     *****************************************************/
+    // コマンドパレット
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.showCommands"
+    },
+    // ビュー: 統合ターミナルの切り替え
+    {
+        "key": "ctrl+[Quote]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    // すべて展開
+    {
+        "key": "alt+0",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // すべて折りたたみ
+    {
+        "key": "alt+1",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // アウトラインレベル2で折りたたみ
+    {
+        "key": "alt+2",
+        "command": "editor.foldLevel2",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // アウトラインレベル3で折りたたみ
+    {
+        "key": "alt+3",
+        "command": "editor.foldLevel3",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // アウトラインレベル4で折りたたみ
+    {
+        "key": "alt+4",
+        "command": "editor.foldLevel4",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // アウトラインレベル5で折りたたみ
+    {
+        "key": "alt+5",
+        "command": "editor.foldLevel5",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // 再帰的に折りたたむ
+    {
+        "key": "alt+[Minus]",
+        "command": "editor.foldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    // 再帰的に展開する
+    {
+        "key": "shift+alt+[Semicolon]",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    /******************************************************
+     * ターミナル
+     *****************************************************/
+    // タスク: タスクの実行
+    {
+        "key": "shift+alt+r",
+        "command": "workbench.action.tasks.runTask"
+    },
+]
